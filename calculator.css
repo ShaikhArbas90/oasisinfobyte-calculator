@@ -1,1 +1,70 @@
-hello huys 
+HELLO GUYS 
+I'm Arbaaz Shaikh 
+
+# oasisInfobyte-calculator
+here we are building the calculator using the simple HTML, CSS 
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background:#e3f9ff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.calculator{
+    background:#3a4452;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.calculator form input{
+    border:0;
+    outline:0;
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin:10px;
+    box-shadow: #3a4452;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin:20px 0;
+}
+
+form .display input{
+    text-align:right;
+    flex:1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+#op{
+    color:rgb(219, 96, 30);
+}
+
+.calculator form input:hover{
+    background-color: #f1d640f3;
+    color:black;
+    transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width:370px){
+    .calculator{
+        padding: 1px;
+    }
+}
